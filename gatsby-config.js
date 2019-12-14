@@ -39,6 +39,9 @@ module.exports = {
           localIdentName: '[local]--[hash:base64:5]',
           camelCase: false,
         },
+        postCssPlugins: [
+          require('postcss-logical'),
+        ]
       },
     },
   ],
