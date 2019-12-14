@@ -41,6 +41,7 @@ module.exports = {
         },
         postCssPlugins: [
           require('postcss-logical'),
+          require('postcss-combine-media-query'),
         ]
       },
     },
